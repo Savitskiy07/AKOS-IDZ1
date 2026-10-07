@@ -1,0 +1,7 @@
+build/
+gallery
+gallery-asan
+gallery-asan-no-leaks
+gallery-tsan
+gallery.log
+__pycache__/

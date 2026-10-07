@@ -1,0 +1,8 @@
+000001 t_ms=0 event=CONFIG visitor=0 painting=0 inside=0 reserved=0 queue=0 viewers=0 | Параметры: capacity=10 paintings=5 picture_capacity=2 visitors=200 arrival_min_ms=1 arrival_max_ms=3 view_min_ms=4 view_max_ms=10 strategy=random seed=2026
+004539 t_ms=1042 event=ENTRY_CLOSED visitor=0 painting=0 inside=0 reserved=0 queue=0 viewers=0 | Вход закрыт. Новые посетители больше не принимаются.
+004541 t_ms=1042 event=SUMMARY visitor=0 painting=0 inside=0 reserved=0 queue=0 viewers=0 | Итоги: reason=complete requested=200 created=200 arrived=200 completed=200 interrupted=0 cancelled=0 unstarted=0 views=1000 peak_inside=10 peak_occupied=10 peak_viewers=10 peak_queue=116 entry_waits=190 painting_waits=536
+004542 t_ms=1042 event=PICTURE_SUMMARY visitor=0 painting=1 inside=0 reserved=0 queue=0 viewers=0 | Итоги по картине: completed_views=200 peak=2 limit=2
+004543 t_ms=1042 event=PICTURE_SUMMARY visitor=0 painting=2 inside=0 reserved=0 queue=0 viewers=0 | Итоги по картине: completed_views=200 peak=2 limit=2
+004544 t_ms=1042 event=PICTURE_SUMMARY visitor=0 painting=3 inside=0 reserved=0 queue=0 viewers=0 | Итоги по картине: completed_views=200 peak=2 limit=2
+004545 t_ms=1042 event=PICTURE_SUMMARY visitor=0 painting=4 inside=0 reserved=0 queue=0 viewers=0 | Итоги по картине: completed_views=200 peak=2 limit=2
+004546 t_ms=1042 event=PICTURE_SUMMARY visitor=0 painting=5 inside=0 reserved=0 queue=0 viewers=0 | Итоги по картине: completed_views=200 peak=2 limit=2

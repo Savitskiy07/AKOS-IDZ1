@@ -1,0 +1,130 @@
+000001 t_ms=0 event=CONFIG visitor=0 painting=0 inside=0 reserved=0 queue=0 viewers=0 | Параметры: capacity=3 paintings=3 picture_capacity=1 visitors=8 arrival_min_ms=10 arrival_max_ms=40 view_min_ms=100 view_max_ms=220 strategy=random seed=42
+000002 t_ms=12 event=ARRIVE visitor=1 painting=0 inside=0 reserved=0 queue=0 viewers=0 | Прибыл посетитель. arrival_delay_ms=12
+000003 t_ms=12 event=WAIT_ENTRY visitor=1 painting=0 inside=0 reserved=0 queue=1 viewers=0 | Ожидание разрешения вахтёра в FIFO-очереди. full=0
+000004 t_ms=12 event=ALLOW visitor=1 painting=0 inside=0 reserved=1 queue=0 viewers=0 | Вахтёр разрешил вход; место зарезервировано.
+000005 t_ms=12 event=ENTER visitor=1 painting=0 inside=1 reserved=0 queue=0 viewers=0 | Посетитель вошёл в галерею.
+000006 t_ms=12 event=CHOOSE visitor=1 painting=2 inside=1 reserved=0 queue=0 viewers=0 | Выбрана картина. step=1 ticket=0 view_ms=190
+000007 t_ms=12 event=VIEW_START visitor=1 painting=2 inside=1 reserved=0 queue=0 viewers=1 | Начало осмотра. view_ms=190
+000008 t_ms=50 event=ARRIVE visitor=2 painting=0 inside=1 reserved=0 queue=0 viewers=0 | Прибыл посетитель. arrival_delay_ms=38
+000009 t_ms=50 event=WAIT_ENTRY visitor=2 painting=0 inside=1 reserved=0 queue=1 viewers=0 | Ожидание разрешения вахтёра в FIFO-очереди. full=0
+000010 t_ms=50 event=ALLOW visitor=2 painting=0 inside=1 reserved=1 queue=0 viewers=0 | Вахтёр разрешил вход; место зарезервировано.
+000011 t_ms=50 event=ENTER visitor=2 painting=0 inside=2 reserved=0 queue=0 viewers=0 | Посетитель вошёл в галерею.
+000012 t_ms=50 event=CHOOSE visitor=2 painting=2 inside=2 reserved=0 queue=0 viewers=1 | Выбрана картина. step=1 ticket=0 view_ms=179
+000013 t_ms=50 event=WAIT_PAINTING visitor=2 painting=2 inside=2 reserved=0 queue=0 viewers=1 | Ожидание свободного места у картины. ticket=0
+000014 t_ms=66 event=ARRIVE visitor=3 painting=0 inside=2 reserved=0 queue=0 viewers=0 | Прибыл посетитель. arrival_delay_ms=16
+000015 t_ms=66 event=WAIT_ENTRY visitor=3 painting=0 inside=2 reserved=0 queue=1 viewers=0 | Ожидание разрешения вахтёра в FIFO-очереди. full=0
+000016 t_ms=66 event=ALLOW visitor=3 painting=0 inside=2 reserved=1 queue=0 viewers=0 | Вахтёр разрешил вход; место зарезервировано.
+000017 t_ms=66 event=ENTER visitor=3 painting=0 inside=3 reserved=0 queue=0 viewers=0 | Посетитель вошёл в галерею.
+000018 t_ms=66 event=CHOOSE visitor=3 painting=3 inside=3 reserved=0 queue=0 viewers=0 | Выбрана картина. step=1 ticket=0 view_ms=133
+000019 t_ms=66 event=VIEW_START visitor=3 painting=3 inside=3 reserved=0 queue=0 viewers=1 | Начало осмотра. view_ms=133
+000020 t_ms=88 event=ARRIVE visitor=4 painting=0 inside=3 reserved=0 queue=0 viewers=0 | Прибыл посетитель. arrival_delay_ms=22
+000021 t_ms=88 event=WAIT_ENTRY visitor=4 painting=0 inside=3 reserved=0 queue=1 viewers=0 | Ожидание разрешения вахтёра в FIFO-очереди. full=1
+000022 t_ms=110 event=ARRIVE visitor=5 painting=0 inside=3 reserved=0 queue=1 viewers=0 | Прибыл посетитель. arrival_delay_ms=22
+000023 t_ms=110 event=WAIT_ENTRY visitor=5 painting=0 inside=3 reserved=0 queue=2 viewers=0 | Ожидание разрешения вахтёра в FIFO-очереди. full=1
+000024 t_ms=136 event=ARRIVE visitor=6 painting=0 inside=3 reserved=0 queue=2 viewers=0 | Прибыл посетитель. arrival_delay_ms=25
+000025 t_ms=136 event=WAIT_ENTRY visitor=6 painting=0 inside=3 reserved=0 queue=3 viewers=0 | Ожидание разрешения вахтёра в FIFO-очереди. full=1
+000026 t_ms=148 event=ARRIVE visitor=7 painting=0 inside=3 reserved=0 queue=3 viewers=0 | Прибыл посетитель. arrival_delay_ms=11
+000027 t_ms=148 event=WAIT_ENTRY visitor=7 painting=0 inside=3 reserved=0 queue=4 viewers=0 | Ожидание разрешения вахтёра в FIFO-очереди. full=1
+000028 t_ms=180 event=ARRIVE visitor=8 painting=0 inside=3 reserved=0 queue=4 viewers=0 | Прибыл посетитель. arrival_delay_ms=32
+000029 t_ms=180 event=WAIT_ENTRY visitor=8 painting=0 inside=3 reserved=0 queue=5 viewers=0 | Ожидание разрешения вахтёра в FIFO-очереди. full=1
+000030 t_ms=180 event=ARRIVALS_DONE visitor=0 painting=0 inside=3 reserved=0 queue=5 viewers=0 | Создание посетителей завершено. created=8 requested=8
+000031 t_ms=201 event=VIEW_END visitor=3 painting=3 inside=3 reserved=0 queue=5 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000032 t_ms=201 event=CHOOSE visitor=3 painting=2 inside=3 reserved=0 queue=5 viewers=1 | Выбрана картина. step=2 ticket=1 view_ms=180
+000033 t_ms=201 event=WAIT_PAINTING visitor=3 painting=2 inside=3 reserved=0 queue=5 viewers=1 | Ожидание свободного места у картины. ticket=1
+000034 t_ms=204 event=VIEW_END visitor=1 painting=2 inside=3 reserved=0 queue=5 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000035 t_ms=204 event=VIEW_START visitor=2 painting=2 inside=3 reserved=0 queue=5 viewers=1 | Начало осмотра. view_ms=179
+000036 t_ms=204 event=CHOOSE visitor=1 painting=3 inside=3 reserved=0 queue=5 viewers=0 | Выбрана картина. step=2 ticket=0 view_ms=134
+000037 t_ms=204 event=VIEW_START visitor=1 painting=3 inside=3 reserved=0 queue=5 viewers=1 | Начало осмотра. view_ms=134
+000038 t_ms=338 event=VIEW_END visitor=1 painting=3 inside=3 reserved=0 queue=5 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000039 t_ms=338 event=CHOOSE visitor=1 painting=1 inside=3 reserved=0 queue=5 viewers=0 | Выбрана картина. step=3 ticket=0 view_ms=128
+000040 t_ms=338 event=VIEW_START visitor=1 painting=1 inside=3 reserved=0 queue=5 viewers=1 | Начало осмотра. view_ms=128
+000041 t_ms=383 event=VIEW_END visitor=2 painting=2 inside=3 reserved=0 queue=5 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000042 t_ms=383 event=VIEW_START visitor=3 painting=2 inside=3 reserved=0 queue=5 viewers=1 | Начало осмотра. view_ms=180
+000043 t_ms=383 event=CHOOSE visitor=2 painting=3 inside=3 reserved=0 queue=5 viewers=0 | Выбрана картина. step=2 ticket=0 view_ms=136
+000044 t_ms=383 event=VIEW_START visitor=2 painting=3 inside=3 reserved=0 queue=5 viewers=1 | Начало осмотра. view_ms=136
+000045 t_ms=466 event=VIEW_END visitor=1 painting=1 inside=3 reserved=0 queue=5 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000046 t_ms=466 event=EXIT visitor=1 painting=0 inside=2 reserved=0 queue=5 viewers=0 | Посетитель вышел и освободил место. completed=1
+000047 t_ms=466 event=ALLOW visitor=4 painting=0 inside=2 reserved=1 queue=4 viewers=0 | Вахтёр разрешил вход; место зарезервировано.
+000048 t_ms=466 event=ENTER visitor=4 painting=0 inside=3 reserved=0 queue=4 viewers=0 | Посетитель вошёл в галерею.
+000049 t_ms=466 event=CHOOSE visitor=4 painting=2 inside=3 reserved=0 queue=4 viewers=1 | Выбрана картина. step=1 ticket=0 view_ms=134
+000050 t_ms=466 event=WAIT_PAINTING visitor=4 painting=2 inside=3 reserved=0 queue=4 viewers=1 | Ожидание свободного места у картины. ticket=0
+000051 t_ms=520 event=VIEW_END visitor=2 painting=3 inside=3 reserved=0 queue=4 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000052 t_ms=520 event=CHOOSE visitor=2 painting=1 inside=3 reserved=0 queue=4 viewers=0 | Выбрана картина. step=3 ticket=0 view_ms=183
+000053 t_ms=520 event=VIEW_START visitor=2 painting=1 inside=3 reserved=0 queue=4 viewers=1 | Начало осмотра. view_ms=183
+000054 t_ms=564 event=VIEW_END visitor=3 painting=2 inside=3 reserved=0 queue=4 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000055 t_ms=564 event=VIEW_START visitor=4 painting=2 inside=3 reserved=0 queue=4 viewers=1 | Начало осмотра. view_ms=134
+000056 t_ms=564 event=CHOOSE visitor=3 painting=1 inside=3 reserved=0 queue=4 viewers=1 | Выбрана картина. step=3 ticket=0 view_ms=185
+000057 t_ms=564 event=WAIT_PAINTING visitor=3 painting=1 inside=3 reserved=0 queue=4 viewers=1 | Ожидание свободного места у картины. ticket=0
+000058 t_ms=698 event=VIEW_END visitor=4 painting=2 inside=3 reserved=0 queue=4 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000059 t_ms=698 event=CHOOSE visitor=4 painting=3 inside=3 reserved=0 queue=4 viewers=0 | Выбрана картина. step=2 ticket=0 view_ms=187
+000060 t_ms=698 event=VIEW_START visitor=4 painting=3 inside=3 reserved=0 queue=4 viewers=1 | Начало осмотра. view_ms=187
+000061 t_ms=703 event=VIEW_END visitor=2 painting=1 inside=3 reserved=0 queue=4 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000062 t_ms=703 event=VIEW_START visitor=3 painting=1 inside=3 reserved=0 queue=4 viewers=1 | Начало осмотра. view_ms=185
+000063 t_ms=703 event=EXIT visitor=2 painting=0 inside=2 reserved=0 queue=4 viewers=0 | Посетитель вышел и освободил место. completed=1
+000064 t_ms=703 event=ALLOW visitor=5 painting=0 inside=2 reserved=1 queue=3 viewers=0 | Вахтёр разрешил вход; место зарезервировано.
+000065 t_ms=703 event=ENTER visitor=5 painting=0 inside=3 reserved=0 queue=3 viewers=0 | Посетитель вошёл в галерею.
+000066 t_ms=703 event=CHOOSE visitor=5 painting=1 inside=3 reserved=0 queue=3 viewers=1 | Выбрана картина. step=1 ticket=0 view_ms=130
+000067 t_ms=703 event=WAIT_PAINTING visitor=5 painting=1 inside=3 reserved=0 queue=3 viewers=1 | Ожидание свободного места у картины. ticket=0
+000068 t_ms=885 event=VIEW_END visitor=4 painting=3 inside=3 reserved=0 queue=3 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000069 t_ms=885 event=CHOOSE visitor=4 painting=1 inside=3 reserved=0 queue=3 viewers=1 | Выбрана картина. step=3 ticket=1 view_ms=148
+000070 t_ms=885 event=WAIT_PAINTING visitor=4 painting=1 inside=3 reserved=0 queue=3 viewers=1 | Ожидание свободного места у картины. ticket=1
+000071 t_ms=888 event=VIEW_END visitor=3 painting=1 inside=3 reserved=0 queue=3 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000072 t_ms=888 event=VIEW_START visitor=5 painting=1 inside=3 reserved=0 queue=3 viewers=1 | Начало осмотра. view_ms=130
+000073 t_ms=888 event=EXIT visitor=3 painting=0 inside=2 reserved=0 queue=3 viewers=0 | Посетитель вышел и освободил место. completed=1
+000074 t_ms=888 event=ALLOW visitor=6 painting=0 inside=2 reserved=1 queue=2 viewers=0 | Вахтёр разрешил вход; место зарезервировано.
+000075 t_ms=888 event=ENTER visitor=6 painting=0 inside=3 reserved=0 queue=2 viewers=0 | Посетитель вошёл в галерею.
+000076 t_ms=888 event=CHOOSE visitor=6 painting=2 inside=3 reserved=0 queue=2 viewers=0 | Выбрана картина. step=1 ticket=0 view_ms=114
+000077 t_ms=888 event=VIEW_START visitor=6 painting=2 inside=3 reserved=0 queue=2 viewers=1 | Начало осмотра. view_ms=114
+000078 t_ms=1002 event=VIEW_END visitor=6 painting=2 inside=3 reserved=0 queue=2 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000079 t_ms=1002 event=CHOOSE visitor=6 painting=1 inside=3 reserved=0 queue=2 viewers=1 | Выбрана картина. step=2 ticket=1 view_ms=145
+000080 t_ms=1002 event=WAIT_PAINTING visitor=6 painting=1 inside=3 reserved=0 queue=2 viewers=1 | Ожидание свободного места у картины. ticket=1
+000081 t_ms=1018 event=VIEW_END visitor=5 painting=1 inside=3 reserved=0 queue=2 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000082 t_ms=1018 event=VIEW_START visitor=4 painting=1 inside=3 reserved=0 queue=2 viewers=1 | Начало осмотра. view_ms=148
+000083 t_ms=1018 event=CHOOSE visitor=5 painting=2 inside=3 reserved=0 queue=2 viewers=0 | Выбрана картина. step=2 ticket=0 view_ms=136
+000084 t_ms=1018 event=VIEW_START visitor=5 painting=2 inside=3 reserved=0 queue=2 viewers=1 | Начало осмотра. view_ms=136
+000085 t_ms=1155 event=VIEW_END visitor=5 painting=2 inside=3 reserved=0 queue=2 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000086 t_ms=1155 event=CHOOSE visitor=5 painting=3 inside=3 reserved=0 queue=2 viewers=0 | Выбрана картина. step=3 ticket=0 view_ms=130
+000087 t_ms=1155 event=VIEW_START visitor=5 painting=3 inside=3 reserved=0 queue=2 viewers=1 | Начало осмотра. view_ms=130
+000088 t_ms=1167 event=VIEW_END visitor=4 painting=1 inside=3 reserved=0 queue=2 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000089 t_ms=1167 event=VIEW_START visitor=6 painting=1 inside=3 reserved=0 queue=2 viewers=1 | Начало осмотра. view_ms=145
+000090 t_ms=1167 event=EXIT visitor=4 painting=0 inside=2 reserved=0 queue=2 viewers=0 | Посетитель вышел и освободил место. completed=1
+000091 t_ms=1167 event=ALLOW visitor=7 painting=0 inside=2 reserved=1 queue=1 viewers=0 | Вахтёр разрешил вход; место зарезервировано.
+000092 t_ms=1167 event=ENTER visitor=7 painting=0 inside=3 reserved=0 queue=1 viewers=0 | Посетитель вошёл в галерею.
+000093 t_ms=1167 event=CHOOSE visitor=7 painting=1 inside=3 reserved=0 queue=1 viewers=1 | Выбрана картина. step=1 ticket=0 view_ms=169
+000094 t_ms=1167 event=WAIT_PAINTING visitor=7 painting=1 inside=3 reserved=0 queue=1 viewers=1 | Ожидание свободного места у картины. ticket=0
+000095 t_ms=1285 event=VIEW_END visitor=5 painting=3 inside=3 reserved=0 queue=1 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000096 t_ms=1285 event=EXIT visitor=5 painting=0 inside=2 reserved=0 queue=1 viewers=0 | Посетитель вышел и освободил место. completed=1
+000097 t_ms=1285 event=ALLOW visitor=8 painting=0 inside=2 reserved=1 queue=0 viewers=0 | Вахтёр разрешил вход; место зарезервировано.
+000098 t_ms=1285 event=ENTER visitor=8 painting=0 inside=3 reserved=0 queue=0 viewers=0 | Посетитель вошёл в галерею.
+000099 t_ms=1285 event=CHOOSE visitor=8 painting=1 inside=3 reserved=0 queue=0 viewers=1 | Выбрана картина. step=1 ticket=1 view_ms=160
+000100 t_ms=1285 event=WAIT_PAINTING visitor=8 painting=1 inside=3 reserved=0 queue=0 viewers=1 | Ожидание свободного места у картины. ticket=1
+000101 t_ms=1312 event=VIEW_END visitor=6 painting=1 inside=3 reserved=0 queue=0 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000102 t_ms=1312 event=VIEW_START visitor=7 painting=1 inside=3 reserved=0 queue=0 viewers=1 | Начало осмотра. view_ms=169
+000103 t_ms=1312 event=CHOOSE visitor=6 painting=3 inside=3 reserved=0 queue=0 viewers=0 | Выбрана картина. step=3 ticket=0 view_ms=154
+000104 t_ms=1312 event=VIEW_START visitor=6 painting=3 inside=3 reserved=0 queue=0 viewers=1 | Начало осмотра. view_ms=154
+000105 t_ms=1466 event=VIEW_END visitor=6 painting=3 inside=3 reserved=0 queue=0 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000106 t_ms=1466 event=EXIT visitor=6 painting=0 inside=2 reserved=0 queue=0 viewers=0 | Посетитель вышел и освободил место. completed=1
+000107 t_ms=1482 event=VIEW_END visitor=7 painting=1 inside=2 reserved=0 queue=0 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000108 t_ms=1482 event=VIEW_START visitor=8 painting=1 inside=2 reserved=0 queue=0 viewers=1 | Начало осмотра. view_ms=160
+000109 t_ms=1482 event=CHOOSE visitor=7 painting=3 inside=2 reserved=0 queue=0 viewers=0 | Выбрана картина. step=2 ticket=0 view_ms=153
+000110 t_ms=1482 event=VIEW_START visitor=7 painting=3 inside=2 reserved=0 queue=0 viewers=1 | Начало осмотра. view_ms=153
+000111 t_ms=1635 event=VIEW_END visitor=7 painting=3 inside=2 reserved=0 queue=0 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000112 t_ms=1635 event=CHOOSE visitor=7 painting=2 inside=2 reserved=0 queue=0 viewers=0 | Выбрана картина. step=3 ticket=0 view_ms=220
+000113 t_ms=1635 event=VIEW_START visitor=7 painting=2 inside=2 reserved=0 queue=0 viewers=1 | Начало осмотра. view_ms=220
+000114 t_ms=1642 event=VIEW_END visitor=8 painting=1 inside=2 reserved=0 queue=0 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000115 t_ms=1642 event=CHOOSE visitor=8 painting=3 inside=2 reserved=0 queue=0 viewers=0 | Выбрана картина. step=2 ticket=0 view_ms=109
+000116 t_ms=1642 event=VIEW_START visitor=8 painting=3 inside=2 reserved=0 queue=0 viewers=1 | Начало осмотра. view_ms=109
+000117 t_ms=1751 event=VIEW_END visitor=8 painting=3 inside=2 reserved=0 queue=0 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000118 t_ms=1751 event=CHOOSE visitor=8 painting=2 inside=2 reserved=0 queue=0 viewers=1 | Выбрана картина. step=3 ticket=0 view_ms=143
+000119 t_ms=1751 event=WAIT_PAINTING visitor=8 painting=2 inside=2 reserved=0 queue=0 viewers=1 | Ожидание свободного места у картины. ticket=0
+000120 t_ms=1855 event=VIEW_END visitor=7 painting=2 inside=2 reserved=0 queue=0 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000121 t_ms=1855 event=VIEW_START visitor=8 painting=2 inside=2 reserved=0 queue=0 viewers=1 | Начало осмотра. view_ms=143
+000122 t_ms=1855 event=EXIT visitor=7 painting=0 inside=1 reserved=0 queue=0 viewers=0 | Посетитель вышел и освободил место. completed=1
+000123 t_ms=1998 event=VIEW_END visitor=8 painting=2 inside=1 reserved=0 queue=0 viewers=0 | Осмотр завершён; картина засчитана один раз.
+000124 t_ms=1998 event=EXIT visitor=8 painting=0 inside=0 reserved=0 queue=0 viewers=0 | Посетитель вышел и освободил место. completed=1
+000125 t_ms=1998 event=ENTRY_CLOSED visitor=0 painting=0 inside=0 reserved=0 queue=0 viewers=0 | Вход закрыт. Новые посетители больше не принимаются.
+000126 t_ms=1998 event=GUARD_DONE visitor=0 painting=0 inside=0 reserved=0 queue=0 viewers=0 | Последовательный диспетчер галереи завершил работу: галерея пуста.
+000127 t_ms=1998 event=SUMMARY visitor=0 painting=0 inside=0 reserved=0 queue=0 viewers=0 | Итоги: reason=complete requested=8 created=8 arrived=8 completed=8 interrupted=0 cancelled=0 unstarted=0 views=24 peak_inside=3 peak_occupied=3 peak_viewers=3 peak_queue=5 entry_waits=5 painting_waits=10
+000128 t_ms=1998 event=PICTURE_SUMMARY visitor=0 painting=1 inside=0 reserved=0 queue=0 viewers=0 | Итоги по картине: completed_views=8 peak=1 limit=1
+000129 t_ms=1998 event=PICTURE_SUMMARY visitor=0 painting=2 inside=0 reserved=0 queue=0 viewers=0 | Итоги по картине: completed_views=8 peak=1 limit=1
+000130 t_ms=1998 event=PICTURE_SUMMARY visitor=0 painting=3 inside=0 reserved=0 queue=0 viewers=0 | Итоги по картине: completed_views=8 peak=1 limit=1
