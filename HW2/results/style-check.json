@@ -1,0 +1,52 @@
+{
+  "rules": [
+    "braced_if_else",
+    "one_statement_per_line",
+    "postfix_increment_decrement"
+  ],
+  "literal_strings_unchanged": true,
+  "files": [
+    {
+      "file": "src/config.c",
+      "if_else_blocks": 59,
+      "postfix_operations": 5,
+      "result": "PASS"
+    },
+    {
+      "file": "src/main.c",
+      "if_else_blocks": 57,
+      "postfix_operations": 34,
+      "result": "PASS"
+    },
+    {
+      "file": "src/config.h",
+      "if_else_blocks": 0,
+      "postfix_operations": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "src/sync.h",
+      "if_else_blocks": 0,
+      "postfix_operations": 0,
+      "result": "PASS"
+    },
+    {
+      "file": "src/sync.c",
+      "if_else_blocks": 13,
+      "postfix_operations": 4,
+      "result": "PASS"
+    },
+    {
+      "file": "tests/fault_injection.c",
+      "if_else_blocks": 4,
+      "postfix_operations": 1,
+      "result": "PASS"
+    },
+    {
+      "file": "tests/no_lsan.c",
+      "if_else_blocks": 0,
+      "postfix_operations": 0,
+      "result": "PASS"
+    }
+  ]
+}
