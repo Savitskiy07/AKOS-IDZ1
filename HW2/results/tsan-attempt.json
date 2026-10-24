@@ -1,0 +1,6 @@
+{
+  "command": "gcc -fsanitize=thread; gallery_tsan (50 visitors)",
+  "returncode": 0,
+  "stdout": "seq=1186 ms=74 event=PICTURE_STATS visitor=0 picture=1 inside=0 reserved=0 queue=0 views=50 peak=2 limit=2 Итог по картине.\nseq=1187 ms=74 event=PICTURE_STATS visitor=0 picture=2 inside=0 reserved=0 queue=0 views=50 peak=2 limit=2 Итог по картине.\nseq=1188 ms=74 event=PICTURE_STATS visitor=0 picture=3 inside=0 reserved=0 queue=0 views=50 peak=2 limit=2 Итог по картине.\nseq=1189 ms=74 event=PICTURE_STATS visitor=0 picture=4 inside=0 reserved=0 queue=0 views=50 peak=2 limit=2 Итог по картине.\nseq=1190 ms=74 event=PICTURE_STATS visitor=0 picture=5 inside=0 reserved=0 queue=0 views=50 peak=2 limit=2 Итог по картине.\nseq=1191 ms=75 event=SUMMARY visitor=0 picture=0 inside=0 reserved=0 queue=0 status=completed planned=50 created=50 arrived=50 entered=50 exited=50 completed=50 cancelled=0 not_arrived=0 inspections=250 peak_inside=10 peak_committed=10 peak_queue=47 Все потоки завершены.\n",
+  "stderr": "==5==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized\n==5==WARNING: reading executable name failed with errno 2, some stack frames may not be symbolized\n"
+}
