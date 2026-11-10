@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--dependency-file=CMakeFiles/gallery.dir/link.d CMakeFiles/gallery.dir/src/main.c.o CMakeFiles/gallery.dir/src/config.c.o CMakeFiles/gallery.dir/src/io.c.o CMakeFiles/gallery.dir/src/random.c.o CMakeFiles/gallery.dir/src/simulation.c.o -o gallery

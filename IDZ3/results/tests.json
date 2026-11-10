@@ -1,0 +1,814 @@
+{
+  "date_utc": "2026-10-07T20:08:02Z",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "binary": "gallery",
+  "compiler": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "total": 58,
+  "passed": 58,
+  "seconds": 6.182,
+  "results": [
+    {
+      "name": "empty_day",
+      "status": "passed",
+      "seconds": 0.0035,
+      "summary": {
+        "reason": "complete",
+        "requested": "0",
+        "created": "0",
+        "arrived": "0",
+        "completed": "0",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "0",
+        "peak_inside": "0",
+        "peak_occupied": "0",
+        "peak_viewers": "0",
+        "peak_queue": "0",
+        "entry_waits": "0",
+        "painting_waits": "0"
+      }
+    },
+    {
+      "name": "single_visitor",
+      "status": "passed",
+      "seconds": 0.0033,
+      "summary": {
+        "reason": "complete",
+        "requested": "1",
+        "created": "1",
+        "arrived": "1",
+        "completed": "1",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "1",
+        "peak_inside": "1",
+        "peak_occupied": "1",
+        "peak_viewers": "1",
+        "peak_queue": "1",
+        "entry_waits": "0",
+        "painting_waits": "0"
+      }
+    },
+    {
+      "name": "single_slot_100",
+      "status": "passed",
+      "seconds": 0.2427,
+      "summary": {
+        "reason": "complete",
+        "requested": "100",
+        "created": "100",
+        "arrived": "100",
+        "completed": "100",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "400",
+        "peak_inside": "1",
+        "peak_occupied": "1",
+        "peak_viewers": "1",
+        "peak_queue": "99",
+        "entry_waits": "99",
+        "painting_waits": "0"
+      }
+    },
+    {
+      "name": "random_day_200",
+      "status": "passed",
+      "seconds": 1.13,
+      "summary": {
+        "reason": "complete",
+        "requested": "200",
+        "created": "200",
+        "arrived": "200",
+        "completed": "200",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "1000",
+        "peak_inside": "10",
+        "peak_occupied": "10",
+        "peak_viewers": "10",
+        "peak_queue": "116",
+        "entry_waits": "190",
+        "painting_waits": "536"
+      }
+    },
+    {
+      "name": "ordered_contention_100",
+      "status": "passed",
+      "seconds": 0.2817,
+      "summary": {
+        "reason": "complete",
+        "requested": "100",
+        "created": "100",
+        "arrived": "100",
+        "completed": "100",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "300",
+        "peak_inside": "4",
+        "peak_occupied": "4",
+        "peak_viewers": "3",
+        "peak_queue": "96",
+        "entry_waits": "96",
+        "painting_waits": "195"
+      }
+    },
+    {
+      "name": "random_day_300",
+      "status": "passed",
+      "seconds": 0.3362,
+      "summary": {
+        "reason": "complete",
+        "requested": "300",
+        "created": "300",
+        "arrived": "300",
+        "completed": "300",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "1200",
+        "peak_inside": "4",
+        "peak_occupied": "4",
+        "peak_viewers": "4",
+        "peak_queue": "296",
+        "entry_waits": "296",
+        "painting_waits": "178"
+      }
+    },
+    {
+      "name": "64_paintings",
+      "status": "passed",
+      "seconds": 0.0557,
+      "summary": {
+        "reason": "complete",
+        "requested": "4",
+        "created": "4",
+        "arrived": "4",
+        "completed": "4",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "256",
+        "peak_inside": "4",
+        "peak_occupied": "4",
+        "peak_viewers": "4",
+        "peak_queue": "1",
+        "entry_waits": "0",
+        "painting_waits": "0"
+      }
+    },
+    {
+      "name": "capacity_larger_than_visitors",
+      "status": "passed",
+      "seconds": 0.0081,
+      "summary": {
+        "reason": "complete",
+        "requested": "2",
+        "created": "2",
+        "arrived": "2",
+        "completed": "2",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "8",
+        "peak_inside": "2",
+        "peak_occupied": "2",
+        "peak_viewers": "2",
+        "peak_queue": "1",
+        "entry_waits": "0",
+        "painting_waits": "0"
+      }
+    },
+    {
+      "name": "seed_zero",
+      "status": "passed",
+      "seconds": 0.0115,
+      "summary": {
+        "reason": "complete",
+        "requested": "12",
+        "created": "12",
+        "arrived": "12",
+        "completed": "12",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "48",
+        "peak_inside": "4",
+        "peak_occupied": "4",
+        "peak_viewers": "4",
+        "peak_queue": "8",
+        "entry_waits": "8",
+        "painting_waits": "10"
+      }
+    },
+    {
+      "name": "seed_max",
+      "status": "passed",
+      "seconds": 0.0119,
+      "summary": {
+        "reason": "complete",
+        "requested": "12",
+        "created": "12",
+        "arrived": "12",
+        "completed": "12",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "48",
+        "peak_inside": "4",
+        "peak_occupied": "4",
+        "peak_viewers": "4",
+        "peak_queue": "8",
+        "entry_waits": "8",
+        "painting_waits": "3"
+      }
+    },
+    {
+      "name": "zero_delays",
+      "status": "passed",
+      "seconds": 0.0263,
+      "summary": {
+        "reason": "complete",
+        "requested": "100",
+        "created": "100",
+        "arrived": "100",
+        "completed": "100",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "400",
+        "peak_inside": "4",
+        "peak_occupied": "4",
+        "peak_viewers": "4",
+        "peak_queue": "96",
+        "entry_waits": "96",
+        "painting_waits": "56"
+      }
+    },
+    {
+      "name": "simultaneous_viewing_intervals",
+      "status": "passed",
+      "seconds": 0.0444,
+      "summary": {
+        "reason": "complete",
+        "requested": "4",
+        "created": "4",
+        "arrived": "4",
+        "completed": "4",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "4",
+        "peak_inside": "4",
+        "peak_occupied": "4",
+        "peak_viewers": "2",
+        "peak_queue": "1",
+        "entry_waits": "0",
+        "painting_waits": "2"
+      }
+    },
+    {
+      "name": "seed_reproduces_plans",
+      "status": "passed",
+      "seconds": 0.1275,
+      "summary": {
+        "reason": "complete",
+        "requested": "25",
+        "created": "25",
+        "arrived": "25",
+        "completed": "25",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "100",
+        "peak_inside": "4",
+        "peak_occupied": "4",
+        "peak_viewers": "4",
+        "peak_queue": "21",
+        "entry_waits": "21",
+        "painting_waits": "15"
+      }
+    },
+    {
+      "name": "stress_seed_0",
+      "status": "passed",
+      "seconds": 0.1433,
+      "summary": {
+        "reason": "complete",
+        "requested": "100",
+        "created": "100",
+        "arrived": "100",
+        "completed": "100",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "600",
+        "peak_inside": "7",
+        "peak_occupied": "7",
+        "peak_viewers": "6",
+        "peak_queue": "93",
+        "entry_waits": "93",
+        "painting_waits": "332"
+      }
+    },
+    {
+      "name": "stress_seed_1",
+      "status": "passed",
+      "seconds": 0.1582,
+      "summary": {
+        "reason": "complete",
+        "requested": "100",
+        "created": "100",
+        "arrived": "100",
+        "completed": "100",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "600",
+        "peak_inside": "7",
+        "peak_occupied": "7",
+        "peak_viewers": "6",
+        "peak_queue": "93",
+        "entry_waits": "93",
+        "painting_waits": "333"
+      }
+    },
+    {
+      "name": "stress_seed_2",
+      "status": "passed",
+      "seconds": 0.1295,
+      "summary": {
+        "reason": "complete",
+        "requested": "100",
+        "created": "100",
+        "arrived": "100",
+        "completed": "100",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "600",
+        "peak_inside": "7",
+        "peak_occupied": "7",
+        "peak_viewers": "6",
+        "peak_queue": "93",
+        "entry_waits": "93",
+        "painting_waits": "331"
+      }
+    },
+    {
+      "name": "stress_seed_3",
+      "status": "passed",
+      "seconds": 0.1593,
+      "summary": {
+        "reason": "complete",
+        "requested": "100",
+        "created": "100",
+        "arrived": "100",
+        "completed": "100",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "600",
+        "peak_inside": "7",
+        "peak_occupied": "7",
+        "peak_viewers": "6",
+        "peak_queue": "93",
+        "entry_waits": "93",
+        "painting_waits": "328"
+      }
+    },
+    {
+      "name": "stress_seed_4",
+      "status": "passed",
+      "seconds": 0.1389,
+      "summary": {
+        "reason": "complete",
+        "requested": "100",
+        "created": "100",
+        "arrived": "100",
+        "completed": "100",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "600",
+        "peak_inside": "7",
+        "peak_occupied": "7",
+        "peak_viewers": "6",
+        "peak_queue": "93",
+        "entry_waits": "93",
+        "painting_waits": "324"
+      }
+    },
+    {
+      "name": "stress_seed_5",
+      "status": "passed",
+      "seconds": 0.1315,
+      "summary": {
+        "reason": "complete",
+        "requested": "100",
+        "created": "100",
+        "arrived": "100",
+        "completed": "100",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "600",
+        "peak_inside": "7",
+        "peak_occupied": "7",
+        "peak_viewers": "6",
+        "peak_queue": "93",
+        "entry_waits": "93",
+        "painting_waits": "322"
+      }
+    },
+    {
+      "name": "stress_seed_6",
+      "status": "passed",
+      "seconds": 0.1498,
+      "summary": {
+        "reason": "complete",
+        "requested": "100",
+        "created": "100",
+        "arrived": "100",
+        "completed": "100",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "600",
+        "peak_inside": "7",
+        "peak_occupied": "7",
+        "peak_viewers": "6",
+        "peak_queue": "93",
+        "entry_waits": "93",
+        "painting_waits": "330"
+      }
+    },
+    {
+      "name": "stress_seed_7",
+      "status": "passed",
+      "seconds": 0.149,
+      "summary": {
+        "reason": "complete",
+        "requested": "100",
+        "created": "100",
+        "arrived": "100",
+        "completed": "100",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "600",
+        "peak_inside": "7",
+        "peak_occupied": "7",
+        "peak_viewers": "6",
+        "peak_queue": "93",
+        "entry_waits": "93",
+        "painting_waits": "334"
+      }
+    },
+    {
+      "name": "invalid_cli_01",
+      "status": "passed",
+      "seconds": 0.0024,
+      "summary": null
+    },
+    {
+      "name": "invalid_cli_02",
+      "status": "passed",
+      "seconds": 0.0022,
+      "summary": null
+    },
+    {
+      "name": "invalid_cli_03",
+      "status": "passed",
+      "seconds": 0.0019,
+      "summary": null
+    },
+    {
+      "name": "invalid_cli_04",
+      "status": "passed",
+      "seconds": 0.0034,
+      "summary": null
+    },
+    {
+      "name": "invalid_cli_05",
+      "status": "passed",
+      "seconds": 0.0019,
+      "summary": null
+    },
+    {
+      "name": "invalid_cli_06",
+      "status": "passed",
+      "seconds": 0.0018,
+      "summary": null
+    },
+    {
+      "name": "invalid_cli_07",
+      "status": "passed",
+      "seconds": 0.0017,
+      "summary": null
+    },
+    {
+      "name": "invalid_cli_08",
+      "status": "passed",
+      "seconds": 0.0016,
+      "summary": null
+    },
+    {
+      "name": "invalid_cli_09",
+      "status": "passed",
+      "seconds": 0.0029,
+      "summary": null
+    },
+    {
+      "name": "invalid_cli_10",
+      "status": "passed",
+      "seconds": 0.002,
+      "summary": null
+    },
+    {
+      "name": "invalid_cli_11",
+      "status": "passed",
+      "seconds": 0.0019,
+      "summary": null
+    },
+    {
+      "name": "invalid_cli_12",
+      "status": "passed",
+      "seconds": 0.0021,
+      "summary": null
+    },
+    {
+      "name": "invalid_cli_13",
+      "status": "passed",
+      "seconds": 0.0018,
+      "summary": null
+    },
+    {
+      "name": "invalid_cli_14",
+      "status": "passed",
+      "seconds": 0.0018,
+      "summary": null
+    },
+    {
+      "name": "invalid_cli_15",
+      "status": "passed",
+      "seconds": 0.0017,
+      "summary": null
+    },
+    {
+      "name": "invalid_cli_16",
+      "status": "passed",
+      "seconds": 0.0017,
+      "summary": null
+    },
+    {
+      "name": "invalid_cli_17",
+      "status": "passed",
+      "seconds": 0.0021,
+      "summary": null
+    },
+    {
+      "name": "invalid_cli_18",
+      "status": "passed",
+      "seconds": 0.0022,
+      "summary": null
+    },
+    {
+      "name": "invalid_cli_19",
+      "status": "passed",
+      "seconds": 0.0016,
+      "summary": null
+    },
+    {
+      "name": "invalid_config_1",
+      "status": "passed",
+      "seconds": 0.0021,
+      "summary": null
+    },
+    {
+      "name": "invalid_config_2",
+      "status": "passed",
+      "seconds": 0.0021,
+      "summary": null
+    },
+    {
+      "name": "invalid_config_3",
+      "status": "passed",
+      "seconds": 0.0017,
+      "summary": null
+    },
+    {
+      "name": "invalid_config_4",
+      "status": "passed",
+      "seconds": 0.0029,
+      "summary": null
+    },
+    {
+      "name": "invalid_config_5",
+      "status": "passed",
+      "seconds": 0.0016,
+      "summary": null
+    },
+    {
+      "name": "cli_priority_independent_of_position",
+      "status": "passed",
+      "seconds": 2.5988,
+      "summary": {
+        "reason": "complete",
+        "requested": "7",
+        "created": "7",
+        "arrived": "7",
+        "completed": "7",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "35",
+        "peak_inside": "1",
+        "peak_occupied": "1",
+        "peak_viewers": "1",
+        "peak_queue": "6",
+        "entry_waits": "6",
+        "painting_waits": "0"
+      }
+    },
+    {
+      "name": "duplicate_config_argument",
+      "status": "passed",
+      "seconds": 0.0018,
+      "summary": null
+    },
+    {
+      "name": "interactive_defaults",
+      "status": "passed",
+      "seconds": 0.0126,
+      "summary": {
+        "reason": "complete",
+        "requested": "12",
+        "created": "12",
+        "arrived": "12",
+        "completed": "12",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "48",
+        "peak_inside": "4",
+        "peak_occupied": "4",
+        "peak_viewers": "4",
+        "peak_queue": "8",
+        "entry_waits": "8",
+        "painting_waits": "8"
+      }
+    },
+    {
+      "name": "interactive_retry",
+      "status": "passed",
+      "seconds": 0.0181,
+      "summary": {
+        "reason": "complete",
+        "requested": "12",
+        "created": "12",
+        "arrived": "12",
+        "completed": "12",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "48",
+        "peak_inside": "2",
+        "peak_occupied": "2",
+        "peak_viewers": "2",
+        "peak_queue": "10",
+        "entry_waits": "10",
+        "painting_waits": "0"
+      }
+    },
+    {
+      "name": "interactive_eof",
+      "status": "passed",
+      "seconds": 0.0019,
+      "summary": null
+    },
+    {
+      "name": "sigint_during_view_and_queues",
+      "status": "passed",
+      "seconds": 0.0132,
+      "summary": {
+        "reason": "sigint",
+        "requested": "40",
+        "created": "40",
+        "arrived": "40",
+        "completed": "0",
+        "interrupted": "2",
+        "cancelled": "38",
+        "unstarted": "0",
+        "views": "0",
+        "peak_inside": "2",
+        "peak_occupied": "2",
+        "peak_viewers": "1",
+        "peak_queue": "38",
+        "entry_waits": "38",
+        "painting_waits": "1"
+      }
+    },
+    {
+      "name": "sigterm_during_view_and_queues",
+      "status": "passed",
+      "seconds": 0.0138,
+      "summary": {
+        "reason": "sigterm",
+        "requested": "40",
+        "created": "40",
+        "arrived": "40",
+        "completed": "0",
+        "interrupted": "2",
+        "cancelled": "38",
+        "unstarted": "0",
+        "views": "0",
+        "peak_inside": "2",
+        "peak_occupied": "2",
+        "peak_viewers": "1",
+        "peak_queue": "38",
+        "entry_waits": "38",
+        "painting_waits": "1"
+      }
+    },
+    {
+      "name": "sigint_during_long_arrival",
+      "status": "passed",
+      "seconds": 0.0125,
+      "summary": {
+        "reason": "sigint",
+        "requested": "40",
+        "created": "0",
+        "arrived": "0",
+        "completed": "0",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "40",
+        "views": "0",
+        "peak_inside": "0",
+        "peak_occupied": "0",
+        "peak_viewers": "0",
+        "peak_queue": "0",
+        "entry_waits": "0",
+        "painting_waits": "0"
+      }
+    },
+    {
+      "name": "log_open_error",
+      "status": "passed",
+      "seconds": 0.0019,
+      "summary": null
+    },
+    {
+      "name": "config_log_same_inode_protected",
+      "status": "passed",
+      "seconds": 0.003,
+      "summary": null
+    },
+    {
+      "name": "log_write_error",
+      "status": "passed",
+      "seconds": 0.0017,
+      "summary": null
+    },
+    {
+      "name": "console_only",
+      "status": "passed",
+      "seconds": 0.0023,
+      "summary": {
+        "reason": "complete",
+        "requested": "0",
+        "created": "0",
+        "arrived": "0",
+        "completed": "0",
+        "interrupted": "0",
+        "cancelled": "0",
+        "unstarted": "0",
+        "views": "0",
+        "peak_inside": "0",
+        "peak_occupied": "0",
+        "peak_viewers": "0",
+        "peak_queue": "0",
+        "entry_waits": "0",
+        "painting_waits": "0"
+      }
+    },
+    {
+      "name": "broken_stdout_pipe",
+      "status": "passed",
+      "seconds": 0.0018,
+      "summary": null
+    }
+  ],
+  "source_sha256": {
+    "src/config.c": "5f0ae0d44f101d71be549cec66a0267ec780a1a28a8b946a4b44deb30b7264c5",
+    "src/io.c": "847bb93ee8dea247896d3682ec7374121e73d69785c1e8fa0f5c4fc8befd55a5",
+    "src/main.c": "78b72f3086fdd40d577c043126c9be51ae6351377acea9cbed0bc8b614f1e195",
+    "src/random.c": "5745b1d845b3b43bf42bc71d1b6bfda6704a733e437c485656887bda22c4ea5c",
+    "src/simulation.c": "699efecdc35e87bb657ac683642fced75be5271d92933424c86271c29f045eff"
+  }
+}

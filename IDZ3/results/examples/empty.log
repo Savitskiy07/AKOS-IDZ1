@@ -1,0 +1,6 @@
+000001 t_ms=0 event=CONFIG visitor=0 painting=0 inside=0 reserved=0 queue=0 viewers=0 | Параметры: capacity=1 paintings=1 picture_capacity=1 visitors=0 arrival_min_ms=0 arrival_max_ms=0 view_min_ms=0 view_max_ms=0 strategy=ordered seed=0
+000002 t_ms=0 event=ARRIVALS_DONE visitor=0 painting=0 inside=0 reserved=0 queue=0 viewers=0 | Создание посетителей завершено. created=0 requested=0
+000003 t_ms=0 event=ENTRY_CLOSED visitor=0 painting=0 inside=0 reserved=0 queue=0 viewers=0 | Вход закрыт. Новые посетители больше не принимаются.
+000004 t_ms=0 event=GUARD_DONE visitor=0 painting=0 inside=0 reserved=0 queue=0 viewers=0 | Последовательный диспетчер галереи завершил работу: галерея пуста.
+000005 t_ms=0 event=SUMMARY visitor=0 painting=0 inside=0 reserved=0 queue=0 viewers=0 | Итоги: reason=complete requested=0 created=0 arrived=0 completed=0 interrupted=0 cancelled=0 unstarted=0 views=0 peak_inside=0 peak_occupied=0 peak_viewers=0 peak_queue=0 entry_waits=0 painting_waits=0
+000006 t_ms=0 event=PICTURE_SUMMARY visitor=0 painting=1 inside=0 reserved=0 queue=0 viewers=0 | Итоги по картине: completed_views=0 peak=0 limit=1
