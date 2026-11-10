@@ -5,3 +5,6 @@ gallery-asan-no-leaks
 gallery-tsan
 gallery.log
 __pycache__/
+
+.idea/
+cmake-build-debug/
